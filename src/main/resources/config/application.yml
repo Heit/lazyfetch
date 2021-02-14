@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.jdbcx.JdbcDataSource
+    url: jdbc:h2:mem:some_users
+    name: sa
+    username:
+    password:
+  jpa:
+    database: H2
+    show_sql: true
+    properties:
+      hibernate.cache.use_second_level_cache: false
+      hibernate.cache.use_query_cache: false
+      hibernate.generate_statistics: true
+      hibernate.hbm2ddl.auto : create-drop
