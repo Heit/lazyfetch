@@ -8,4 +8,7 @@ There are two test cases in project:
 
  * LazyFetchServiceAspectJTest shows many-to-many lazy fetch for AspectJ mode;
  * LazyFetchServiceTest shows many-to-many lazy fetch for default proxy mode, throws LazyInitializationException;
- 
+
+To run:
+
+ mvn test
