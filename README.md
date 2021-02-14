@@ -12,3 +12,5 @@ There are two test cases in project:
 To run:
 
  mvn test
+
+Docs: https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#transaction-declarative-annotations
